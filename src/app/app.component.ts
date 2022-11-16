@@ -21,7 +21,7 @@ export class AppComponent {
   }
   
   showHide(): boolean{
-    return this.show = false;
+    return this.show = true;
   }
 }
 
