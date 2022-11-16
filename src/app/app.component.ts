@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'event-binding-with-button-one';
-  show: boolean = true;
+  show: boolean = false;
 
   constructor() {}
 
@@ -18,6 +18,6 @@ export class AppComponent {
   }
 
   showHide(): boolean {
-    return (this.show = false);
+    return (this.show = !this.show)
   }
 }
