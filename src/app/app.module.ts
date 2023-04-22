@@ -8,7 +8,7 @@ import { HeroComponent } from 'src/hero/hero.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent ,HeroComponentr ],
+  declarations: [ AppComponent, HelloComponent , HeroComponent  ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
