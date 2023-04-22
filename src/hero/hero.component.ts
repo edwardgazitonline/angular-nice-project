@@ -1,6 +1,6 @@
 import {Component , Input , Output , EventEmitter} from '@angular/core';
 
-export class AppHero implements Output, Input {
+export class AppHero  {
 
   @Input() name:string;
   @Output() liked = new EventEmitter();
